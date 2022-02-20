@@ -1,0 +1,23 @@
+# Path Aliases
+alias obs='cd ~/Documents/obs-ws/'
+
+
+# Win Scripts
+alias tbh='~/dev/rdsetup/win_scripts/hide.bat'
+alias tbuh='~/dev/rdsetup/win_scripts/unhide.bat'
+
+
+# Application Aliases
+
+
+# Prompt String
+PS1='\[\033]0;$PWD\007\]\n\[\033[32m\][\t] \[\033[35m\]\[\033[33m\]\w\[\033[36m\]`__git_ps1`\n\[\033[0m\]$ '
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+# eval "$('/c/Users/Roshan/miniconda3/Scripts/conda.exe' 'shell.bash' 'hook')"
+# <<< conda initialize <<<
+
+# Change tab title
+# tab
