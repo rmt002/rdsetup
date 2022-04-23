@@ -1,24 +1,15 @@
 {
-  //Stop the snooping
-  "telemetry.enableTelemetry": false,
-  "telemetry.enableCrashReporter": false,
-
-  //Theming
-  "workbench.startupEditor": "newUntitledFile",
+  "telemetry.telemetryLevel": "off",
+  "update.mode": "manual",
+  "files.exclude": {
+    "**/node_modules": true
+  },
   "workbench.iconTheme": "material-icon-theme",
-  "breadcrumbs.enabled": false,
-
-  //Prettier
   "editor.formatOnSave": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 13,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-
-  //Sass
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".css",
-      "savePath": "/css"
-    }
-  ],
-  "liveServer.settings.donotShowInfoMsg": true
+  "workbench.startupEditor": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.minimap.enabled": false
 }
